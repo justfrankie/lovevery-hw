@@ -5,11 +5,12 @@ body {
     color:  #2b2b2b;
 }
 
+/* Navigation */
 
 .navigation {
     display: flex;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     height: 80px;
     /* border: 1px solid red; */
     box-shadow: -3px -13px 10px 10px#b3b2b2;
@@ -44,4 +45,28 @@ body {
 
 .title__text {
     
+}
+
+
+/* Main Container */
+
+.main__container {
+    display: flex;
+}
+
+.signin {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.signin-position {
+    margin: auto;
+    width: 60%;
+    padding: 5em;
+}
+
+/* Image Container */
+
+.image {
+    width: 100%;
 }
