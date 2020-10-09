@@ -1,3 +1,47 @@
 body {
+    font-family: "Arial";
+    margin: 0;
+    overflow-x: hidden;
+    color:  #2b2b2b;
+}
+
+
+.navigation {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+    /* border: 1px solid red; */
+    box-shadow: -3px -13px 10px 10px#b3b2b2;
+}
+
+.navigation__wrapper {
+    align-items: center;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.navigation--left {
+    margin-right: auto;
+}
+
+.navigation--right {
+    margin-left: auto;
+}
+
+.navigation__item {
+    padding: 0 15px;
+}
+
+.navigation__item__cart {
+    margin: 0 10px 0 -10px;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+}
+
+.title__text {
     
 }

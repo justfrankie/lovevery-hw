@@ -17,7 +17,7 @@
 
 
 
-it('should return "Welcome Tets User on successful POST" ', function () {
+it('should return message "Welcome Test User" on correct credentials ', function () {
   let emailInputData = document.getElementById("email_input").value
   let passwordInputData = document.getElementById("password_input").value
   const body = { "email": "test@test.com", "password": "password" }
